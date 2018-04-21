@@ -262,10 +262,6 @@ int execute()
     arg[count-1]=NULL;  
     }  
   
-    if(f>1){  
-    printf("error:don't identify the command");  
-    return 0;  
-    }  
   
     pid=fork();  
     if(pid<0){  
